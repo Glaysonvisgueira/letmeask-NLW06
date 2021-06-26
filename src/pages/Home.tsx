@@ -1,4 +1,8 @@
 
+import { useContext } from 'react';
+import { useHistory } from 'react-router-dom';
+
+import { AuthContext } from '../App';
 
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
@@ -8,7 +12,19 @@ import '../styles/auth.scss';
 
 import { Button } from '../components/Button';
 
+
 export function Home(){
+
+    const history = useHistory();
+    const { user, signInWithGoogle } = useContext(AuthContext);
+
+    async function handleCreateRoom(){      
+        if(!user){
+            await signInWithGoogle()
+        }
+            history.push('/rooms/new')        
+    }
+
     return(
         <div id="page-auth">
             <aside>
@@ -16,10 +32,10 @@ export function Home(){
                 <strong>Crie salas de Q&amp;A ao-vivo</strong>
                 <p>Tire as suas dúvidas da sua audiência em tempo-real</p>
             </aside>
-            <main>
+            <main>               
                 <div className='main-content'>
                     <img src={logoImg} alt="Letmeask" />
-                    <button className='create-room'>
+                    <button className='create-room' onClick={handleCreateRoom}>
                         <img src={googleIconImg} alt="Logo do Google" />
                         Crie sua sala com o Google
                     </button>
