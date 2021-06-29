@@ -22,4 +22,4 @@ function App() {
 
 export default App;
 
-//Aula 3 parou em 00:44:19.
+//Aula 3 parou em 01:01:41.
