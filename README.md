@@ -1,17 +1,12 @@
 
 
-## 🧪 SOBRE
+## SOBRE
 
-Este projeto foi criado pela @Rocketseat
-
-- [React](https://reactjs.org)
-- [Firebase](https://firebase.google.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-
+Este projeto foi criado pela Rocketseat no evento Next Level Week #6.
 
 ## 🧪 TECNOLOGIAS
 
-This project was developed using the following technologies:
+Este projeto utiliza as tecnologias abaixo:
 
 - [React](https://reactjs.org)
 - [Firebase](https://firebase.google.com/)
