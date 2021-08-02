@@ -1,22 +1,15 @@
-<p align="center">
-  <img alt="Letmeask" src=".github/logo.svg" width="160px">
-</p>
 
-<p align="center">
-  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=5965E0&labelColor=121214" alt="License">
-  
-  <img src="https://img.shields.io/github/forks/guilhermecapitao/letmeask?label=forks&message=MIT&color=5965E0&labelColor=121214" alt="Forks">     
 
-  <img src="https://img.shields.io/github/stars/guilhermecapitao/letmeask?label=stars&message=MIT&color=5965E0&labelColor=121214" alt="Stars">
-</p>
+## 🧪 SOBRE
 
-<h1 align="center">
-    <img alt="Letmeask" title="Letmeask" src=".github/cover.svg" />
-</h1>
+Este projeto foi criado pela @Rocketseat
 
-<br>
+- [React](https://reactjs.org)
+- [Firebase](https://firebase.google.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-## 🧪 Technologies
+
+## 🧪 TECNOLOGIAS
 
 This project was developed using the following technologies:
 
@@ -24,37 +17,27 @@ This project was developed using the following technologies:
 - [Firebase](https://firebase.google.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Getting started
+## 🚀 Início
 
-Clone the project and access the folder.
+Clone o repositório:
 
 ```bash
-$ git clone https://github.com/guilhermecapitao/letmeask.git
+$ git clone https://github.com/glaysonvisgueira/letmeask-NLW06.git
 $ cd letmeask
 ```
 
-Follow the steps below:
+Siga os passos abaixo:
 ```bash
-# Install the dependencies
+# Instale as dependências
 $ yarn
 
-# Start the project
+# Inicie o projeto
 $ yarn start
 ```
-The app will be available for access on your browser at http://localhost:3000
+O aplicativo estará disponível para acesso no endereço local do seu navegador: http://localhost:3000 
 
-## 🔖 Layout
+## 🔖 LAYOUT
 
-You can view the project layout through the links below:
-
+Você pode acessar os arquivos de layout no FIGMA, clicando no link abaixo:
 - [Layout Web](https://www.figma.com/file/u0BQK8rCf2KgzcukdRRCWh/Letmeask/duplicate) 
-
-Remembering that you need to have a [Figma](http://figma.com/) account to access it.
-
-## 📝 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) file for details.
-
-
----
 
